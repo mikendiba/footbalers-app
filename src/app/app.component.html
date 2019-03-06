@@ -1,0 +1,39 @@
+<div class="container" id="legit">
+<div class="col-lg-12">
+  <div class="col-lg-1"></div>
+  <div class="col-lg-10">
+  <h1 class="top_title">{{title}}</h1>
+ <hr>
+
+<div class="row">
+    <nav>
+
+        <div class="col-md-4"></div>
+ 
+<div class="col-md-2">
+    
+    <a routerLink="/dashboard"><button class="btn btn-main">Dashboard</button></a>
+
+
+</div>
+<div class="col-md-2">
+
+    <a routerLink="/heroes"><button class="btn btn-main">Footballers</button></a>
+
+</div>
+<div class="col-md-4"></div>
+ 
+</nav>
+</div>
+
+
+<router-outlet></router-outlet>
+
+<!-- <app_slider></app_slider> -->
+<button class="btn btn-main" id="hideBtn" (click)="hide_message()" >Hide Messages</button>
+
+<app-messages></app-messages>
+</div>
+<div class="col-lg-1"></div>
+</div>
+</div>
